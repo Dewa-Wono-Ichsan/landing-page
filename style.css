@@ -5,3 +5,22 @@ body{
     flex-direction: column;
     justify-content: space-between;
 }
+
+header, footer, a{
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
+h3{
+    margin: 0;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
