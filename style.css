@@ -75,6 +75,13 @@ a{
     text-decoration: none;
 }
 
+main{
+    height: 102dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 main h2{
     text-align: center;
     margin-top: 0;
