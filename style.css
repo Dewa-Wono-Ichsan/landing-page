@@ -23,10 +23,46 @@ ul{
     gap:24px;
 }
 
+.container-header-description{
+    display: flex;
+    justify-content: center;
+}
 
+.left-header{
+    width: 35dvw;
+}
+
+figure{
+    width: 30dvw;
+}
+
+header .header-intro{
+    font-size: 48px;
+    font-weight: 900;
+}
+
+header .header-intro-detail{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+header button{
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 8px;
+}
+
+header figure img{
+    height: 250px;
+}
+
+figure.header-image{
+    background-color: rgb(197, 189, 189);
+}
 
 h3{
     margin: 0;
+    font-size: 24px;
 }
 
 ul{
