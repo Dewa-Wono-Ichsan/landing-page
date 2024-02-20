@@ -11,6 +11,20 @@ header, footer, a{
     color: #f9faf8;
 }
 
+nav, ul{
+    display: flex;
+}
+
+nav{
+    justify-content: space-around;
+}
+
+ul{
+    gap:24px;
+}
+
+
+
 h3{
     margin: 0;
 }
