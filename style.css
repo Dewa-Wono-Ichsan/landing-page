@@ -74,3 +74,31 @@ ul{
 a{
     text-decoration: none;
 }
+
+main h2{
+    text-align: center;
+    margin-top: 0;
+}
+
+.main-item-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main-item{
+    display: flex;
+    flex-direction: column;
+    max-width: 100px;
+    max-height: 170px;
+}
+
+.main-image{
+    width: 100px;
+    height: 90px;
+    background-color: lightblue;
+    border:2px solid #3882f6 ;
+}
+
+main .main-item figcaption{
+    text-align: center;
+}
