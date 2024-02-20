@@ -150,3 +150,10 @@ main button{
     background-color: #3882f6;
     color: white;
 }
+
+footer{
+    height: 8dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
