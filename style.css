@@ -6,6 +6,10 @@ body{
     justify-content: space-between;
 }
 
+header{
+    padding-top: 10px;
+}
+
 header, footer, a{
     background-color: #1f2937;
     color: #f9faf8;
@@ -37,6 +41,7 @@ figure{
 }
 
 header .header-intro{
+    margin-top: 30px;
     font-size: 48px;
     font-weight: 900;
 }
@@ -50,6 +55,8 @@ header button{
     background-color: #3882f6;
     color: #f9faf8;
     border-radius: 8px;
+    border: 2px solid white;
+    padding: 2px 15px;
 }
 
 header figure img{
@@ -57,7 +64,7 @@ header figure img{
 }
 
 figure.header-image{
-    background-color: rgb(197, 189, 189);
+    background-color: rgb(72, 73, 75);
 }
 
 h3{
@@ -77,6 +84,7 @@ a{
 
 main{
     height: 102dvh;
+    padding-top: 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
